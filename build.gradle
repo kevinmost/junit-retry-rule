@@ -1,0 +1,17 @@
+group 'com.kevinmost'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_5
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile(
+      "junit:junit:4.12",
+      "org.jetbrains:annotations:13.0",
+  )
+}
