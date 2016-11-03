@@ -15,3 +15,7 @@ dependencies {
       "org.jetbrains:annotations:13.0",
   )
 }
+
+task wrapper(type: Wrapper) {
+  gradleVersion = "2.14.1"
+}
